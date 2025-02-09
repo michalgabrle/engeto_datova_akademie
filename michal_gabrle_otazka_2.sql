@@ -31,8 +31,3 @@ SELECT
 		AND mgtable.category_code IS NULL
 		AND mgtable2.category_code IN ('111301','114201')
 		AND mgtable.YEAR IN (SELECT * FROM years)
-
-		
-
-
-
