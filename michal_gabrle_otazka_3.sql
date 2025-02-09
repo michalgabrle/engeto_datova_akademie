@@ -46,6 +46,3 @@ WITH dataset AS (
 	SELECT min(avg_difference_percent) FROM dataset
 	)
 SELECT * FROM dataset WHERE avg_difference_percent = (SELECT * FROM min_avg_difference_percent)
-	
-	
-	
